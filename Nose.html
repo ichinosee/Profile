@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>プロフィールページ</title>
+<!-- Bootstrap -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+<style>
+body {
+	padding-top: 50px;//50px
+	background-color: lightgray;
+}
+
+.starter-template {
+	padding: 40px 40px;
+	background-color: white;
+}
+
+.color-talk {
+	color: lightseagreen;
+}
+
+.color-wrench {
+	color: steelblue;
+}
+
+.color-heart {
+	color: plum;
+}
+
+.icon-size {
+	font-size: 200%;
+}
+
+.jumbotron {
+	background-image: url("");
+	color: white;
+}
+</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">のせのページ</span> <span class="icon-bar"></span>
+					<span class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Project Nyaan</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#skills">Skills</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6"></div>
+				<h1>のせのプロフィール</h1>
+			<p class="lead">みにきてくださり、ありがとございます＾＾</p>
+				<div class="col-sm-6">
+				<img src="https://4.bp.blogspot.com/-bBge1IRqq_k/XGjyrfjKeYI/AAAAAAABRi0/6sy0yk3zrXMkZGqeRWWnAz3ueuvg_dpXgCLcBGAs/s400/photo_studio_baby.png" class="img-responsive">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="starter-template">
+
+			<div class="row">
+				<h2>のせとはこんな人</h2>
+				<div class="col-sm-4">
+					<h3 class="color-talk">
+						<span class="glyphicon glyphicon-volume-up icon-size"></span>好奇心
+					</h3>
+					<p>
+						・昨年から独学でものづくりにトライしています<br>
+						・１人で香港に初海外の旅にでました（コロナが落ち着いたらまた旅がしたい。。）
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="color-wrench">
+						<span class="glyphicon glyphicon-wrench icon-size"></span>つくる
+					</h3>
+					<p>
+						・サーバーサイドの作りに興味を持ち、JAVAにのめりこんでいます。<br>
+						・リナックスアカデミーで５人で３か月かけてチーム開発をしました。
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="color-size">
+						<span class="glyphicon glyphicon-heart icon-size"></span>趣味
+					</h3>
+					<p>
+						・高校生から～社会人まで参加する地域のサークル活動で学生生活を謳歌しています。私は高校生の頃から参加しています。<br>
+						・野球観戦（早く現地参戦したいです）
+
+					</p>
+				</div>
+			</div>
+			<h2 id="works">作ったもの</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>ECサイト</h3>
+					<p>商品一覧（カテゴリ有り →カートに商品を追加→商品の購入→カートの表示→購入処理
+					→顧客情報の入力→注文処理の確定<br>
+					・３０分放置するとホームに戻る使用を実装
+					・カート内の商品をボタン１つで削除できる機能を実装<br><br>
+					<a href="https://github.com/ichinosee/ECsite.git">コードはこちら</a>
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<a href="https://gifyu.com/image/4WJC"><img src="https://s1.gifyu.com/images/2ffb229d-295c-488e-946a-c2c3abd70023b583091e52fbec34.gif" alt="2ffb229d-295c-488e-946a-c2c3abd70023b583091e52fbec34.gif" border="0" /></a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<h2 id="skills">Skills</h2>
+		<p>・HTML<br>
+		・JAVA<br>
+		・SQL<br>
+		・SpringBoot<br>
+		・AWS（挑戦中<br>
+		・git（挑戦中）<br>
+		・heroku（挑戦中）
+		</p>
+		<div class="row starter-template">
+			<a class="btn btn-primary" href="#">Topに戻る</a>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
